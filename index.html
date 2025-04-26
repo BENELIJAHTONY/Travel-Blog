@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IE Travel Blogger | Travel Stories, Tips & Guides</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>IE Travel Blogger</h1>
+                    </a>
+                </div>
+                <div class="theme-toggle">
+                    <button id="theme-toggle-btn">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </div>
+                <nav>
+                    <button class="mobile-menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)">Categories <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="category.html?cat=destinations">Destinations</a></li>
+                                <li><a href="category.html?cat=travel-tips">Travel Tips</a></li>
+                                <li><a href="category.html?cat=gear-reviews">Gear Reviews</a></li>
+                                <li><a href="category.html?cat=personal-stories">Personal Stories</a></li>
+                                <li><a href="category.html?cat=itineraries">Itineraries</a></li>
+                                <li><a href="category.html?cat=packing-guides">Packing Guides</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search-bar">
+                <form id="search-form">
+                    <input type="text" placeholder="Search for travel tips, destinations, guides...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Banner -->
+        <section class="hero-banner">
+            <div class="video-background">
+                <video autoplay muted loop playsinline>
+                    <source src="assets/WORLD.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Explore the World Through My Lens</h2>
+                    <p>Travel stories, destination guides, and tips for every type of traveler</p>
+                    <a href="#featured-posts" class="btn primary-btn">Start Exploring</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories-section">
+            <div class="container">
+                <h2 class="section-title">Explore Categories</h2>
+                <div class="categories-grid">
+                    <a href="category.html?cat=destinations" class="category-card">
+                        <div class="category-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3>Destinations</h3>
+                    </a>
+                    <a href="category.html?cat=travel-tips" class="category-card">
+                        <div class="category-icon"><i class="fas fa-lightbulb"></i></div>
+                        <h3>Travel Tips</h3>
+                    </a>
+                    <a href="category.html?cat=gear-reviews" class="category-card">
+                        <div class="category-icon"><i class="fas fa-suitcase"></i></div>
+                        <h3>Gear Reviews</h3>
+                    </a>
+                    <a href="category.html?cat=personal-stories" class="category-card">
+                        <div class="category-icon"><i class="fas fa-book-open"></i></div>
+                        <h3>Personal Stories</h3>
+                    </a>
+                    <a href="category.html?cat=itineraries" class="category-card">
+                        <div class="category-icon"><i class="fas fa-route"></i></div>
+                        <h3>Itineraries</h3>
+                    </a>
+                    <a href="category.html?cat=packing-guides" class="category-card">
+                        <div class="category-icon"><i class="fas fa-box-open"></i></div>
+                        <h3>Packing Guides</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Posts Section -->
+        <section id="featured-posts" class="featured-posts">
+            <div class="container">
+                <h2 class="section-title">Featured Posts</h2>
+                <div class="featured-grid">
+                    <article class="featured-post main-feature">
+                        <div class="post-image">
+                            <img src="assets/TOP 10 Hotel's In India.png" alt="TOP 10 Hotel's In India">
+                            <div class="post-category">Budget Travel</div>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="post.html">TOP 10 Hotel's In India</a></h3>
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> June 15, 2023</span>
+                                <span><i class="far fa-clock"></i> 12 min read</span>
+                            </div>
+                            <p>Discover how to explore the best of Europe without breaking the bank. From affordable accommodations to budget-friendly activities, this guide covers everything you need to know.</p>
+                            <a href="post.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="featured-post">
+                        <div class="post-image">
+                            <img src="assets/MALDIVES.jpg" alt="Luxury resort in Maldives">
+                            <div class="post-category">Luxury Travel</div>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="post.html">10 Luxury Resorts Every Traveler Should Visit at Least Once</a></h3>
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> May 28, 2023</span>
+                                <span><i class="far fa-clock"></i> 8 min read</span>
+                            </div>
+                            <p>From overwater bungalows in the Maldives to mountain retreats in Switzerland, these luxury resorts offer unforgettable experiences.</p>
+                            <a href="post.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="featured-post">
+                        <div class="post-image">
+                            <img src="assets/PACK SIMPLE.jpg" alt="Packing light for Asia">
+                            <div class="post-category">Packing Guides</div>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="post.html">How to Pack Light for a Month-Long Adventure in Asia</a></h3>
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> April 10, 2023</span>
+                                <span><i class="far fa-clock"></i> 10 min read</span>
+                            </div>
+                            <p>Master the art of minimalist packing for long-term travel. Learn what to bring, what to leave behind, and how to make the most of limited luggage space.</p>
+                            <a href="post.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Posts Section -->
+        <section class="recent-posts">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Recent Posts</h2>
+                    <a href="blog.html" class="view-all">View All Posts <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="posts-grid">
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="assets/SOLO JAPAN.jpg" alt="Solo travel in Japan">
+                            <div class="post-category">Solo Travel</div>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="post.html">Solo Traveling in Japan: A Complete Guide for First-Timers</a></h3>
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> June 5, 2023</span>
+                                <span><i class="far fa-clock"></i> 9 min read</span>
+                            </div>
+                            <p>Everything you need to know about navigating Japan on your own, from transportation to cultural etiquette.</p>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="assets/COSTA RICA.jpg" alt="Family vacation in Costa Rica">
+                            <div class="post-category">Family Travel</div>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="post.html">Family-Friendly Adventures in Costa Rica: Wildlife, Beaches, and Volcanoes</a></h3>
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> May 22, 2023</span>
+                                <span><i class="far fa-clock"></i> 11 min read</span>
+                            </div>
+                            <p>Plan the perfect Costa Rican vacation that will keep both kids and adults entertained and amazed.</p>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="assets/NOMAD IN BALI.jpg" alt="Digital nomad in Bali">
+                            <div class="post-category">Digital Nomad</div>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="post.html">The Digital Nomad's Guide to Working from Bali</a></h3>
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> May 15, 2023</span>
+                                <span><i class="far fa-clock"></i> 7 min read</span>
+                            </div>
+                            <p>Find the best co-working spaces, cafes with reliable WiFi, and affordable long-term accommodations in Bali.</p>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="assets/PHOTOGRAPHY GEAR.jpg" alt="Travel photography gear">
+                            <div class="post-category">Gear Reviews</div>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="post.html">Essential Photography Gear for Travel Bloggers in 2023</a></h3>
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> April 30, 2023</span>
+                                <span><i class="far fa-clock"></i> 8 min read</span>
+                            </div>
+                            <p>From cameras to tripods to editing software, here's everything you need to capture stunning travel photos.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Join the Adventure</h2>
+                    <p>Subscribe to receive travel tips, exclusive content, and updates on new destinations straight to your inbox.</p>
+                    <form id="newsletter-form" class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn primary-btn">Subscribe</button>
+                    </form>
+                    <p class="form-note">I respect your privacy. Unsubscribe at any time.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>IE Travel Blogger</h2>
+                    <p>Exploring the world one adventure at a time</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><a href="category.html?cat=destinations">Destinations</a></li>
+                            <li><a href="category.html?cat=travel-tips">Travel Tips</a></li>
+                            <li><a href="category.html?cat=gear-reviews">Gear Reviews</a></li>
+                            <li><a href="category.html?cat=personal-stories">Personal Stories</a></li>
+                            <li><a href="category.html?cat=itineraries">Itineraries</a></li>
+                            <li><a href="category.html?cat=packing-guides">Packing Guides</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="terms.html">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-pinterest"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 IE Travel Blogger. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
